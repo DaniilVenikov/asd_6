@@ -14,7 +14,7 @@ public class AdvancedFeatures {
         for (int i = 0; 1 < deque.size(); i++) {
             if(!deque.removeFront().equals(deque.removeTail())) {
                 return false;
-            };
+            }
         }
 
         return true;
